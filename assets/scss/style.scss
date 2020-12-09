@@ -1,6 +1,6 @@
 /* Colours */
 
-$primary: #002333;
+$primary: #FF8990; // #002333;
 $dark: #333;
 $light: #edeef2; // #f4f4f4;
 $font-color: #002333;
@@ -142,32 +142,35 @@ a {
 /* Home Section */
 
 .intro {
-    display: table;
+     //display: table;
+    height:100vh;
     width: 100%;
-    height: auto;
-    padding: 6rem 0;
-    text-align: center;
-    color: $primary;
-    background: url(../img/main.jpg) no-repeat bottom center scroll;
-    background-color: $dark;
+    min-height:545px;
+    //padding: 6rem 0;
+    //text-align: center;
+    //color: $primary;
+    background: url(../img/main.jpg) no-repeat center;
+     //background-color: $primary;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-.brand-heading {
-    font-size: 2.5rem;
-}
 
-.intro-text {
-    margin: 4rem;
-    font-size: 1.5rem;
-    color: $primary;
-}
+//.intro-body {
+  //  display: table-cell;
+   // vertical-align: middle;
+   // height:100%;
+//}
+//.brand-heading {
+  //  font-size: 2.5rem;
+//}
+
+//.intro-text {
+  //  margin: 4rem;
+    //font-size: 1.5rem;
+    //color: $primary;
+//}
 
 .btn-dark {
     background-color: $primary !important; /*change the btn background color in
