@@ -36,12 +36,12 @@ p {
 }
 
 a {
-  color: #002333;
+  color: #FF8990;
 }
 
 a:hover, a:focus {
   text-decoration: none;
-  color: black;
+  color: #ff2330;
 }
 
 /* Nagivation */
@@ -68,7 +68,7 @@ a:hover, a:focus {
 }
 
 .navbar-custom {
-  background-color: #002333;
+  background-color: #FF8990;
 }
 
 .navbar-custom a {
@@ -118,37 +118,18 @@ a:hover, a:focus {
 
 /* Home Section */
 .intro {
-  display: table;
+  height: 100vh;
   width: 100%;
-  height: auto;
-  padding: 6rem 0;
-  text-align: center;
-  color: #002333;
-  background: url(../img/main2.jpg) no-repeat bottom center scroll;
-  background-color: #333;
+  min-height: 545px;
+  background: url(../img/main.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.brand-heading {
-  font-size: 2.5rem;
-}
-
-.intro-text {
-  margin: 4rem;
-  font-size: 1.5rem;
-  color: #002333;
-}
-
 .btn-dark {
-  background-color: #002333 !important;
+  background-color: #FF8990 !important;
   /*change the btn background color in
                                             bootstrap */
 }
@@ -169,7 +150,7 @@ a:hover, a:focus {
 /* Content Section */
 .content-section {
   padding: 2rem 0 2rem;
-  color: #002333;
+  color: #FF8990;
 }
 
 /* Service Section  */
@@ -201,7 +182,7 @@ a:hover, a:focus {
 
 /* Customer Plans */
 .header-primary {
-  background-color: #002333;
+  background-color: #FF8990;
   color: #edeef2;
   font-size: 1rem;
 }
@@ -235,7 +216,7 @@ a:hover, a:focus {
 }
 
 .btn-light {
-  color: #002333 !important;
+  color: #FF8990 !important;
 }
 
 @media (min-width: 767px) {
@@ -262,7 +243,7 @@ a:hover, a:focus {
 }
 
 .portfolio h1 {
-  color: #002333;
+  color: #FF8990;
   margin: 2rem;
 }
 
@@ -277,7 +258,7 @@ a:hover, a:focus {
 }
 
 .portfolio .card-title {
-  color: #002333;
+  color: #FF8990;
 }
 
 .portfolio .card-body {
@@ -286,7 +267,7 @@ a:hover, a:focus {
 
 /* Contact section */
 #contact {
-  background-color: #002333;
+  background-color: #FF8990;
   color: #edeef2;
   padding-bottom: 5rem;
 }
@@ -304,7 +285,7 @@ a:hover, a:focus {
 }
 
 .banner-social-buttons li a {
-  color: #002333;
+  color: #FF8990;
 }
 
 /* Footer section */
@@ -313,7 +294,7 @@ footer {
   padding-top: 2rem;
   height: 80px;
   text-align: center;
-  color: #002333;
+  color: #FF8990;
 }
 
 /*# sourceMappingURL=style.css.map */
