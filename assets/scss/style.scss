@@ -130,8 +130,10 @@ a {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
+    .intro {
+       min-height:545px;
 }
-
+}
 .page-scroll {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
@@ -145,7 +147,7 @@ a {
      //display: table;
     height:100vh;
     width: 100%;
-    min-height:545px;
+    //min-height:545px;
     //padding: 6rem 0;
     //text-align: center;
     //color: $primary;
