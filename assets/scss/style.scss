@@ -181,7 +181,8 @@ a {
 
 @media (min-width: 767px) {
     .intro {
-        height: 100%;
+        //height: auto;
+        min-height: 700px;
         padding: 0;
     }
     .brand-heading {
