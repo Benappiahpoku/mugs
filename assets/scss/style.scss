@@ -273,9 +273,9 @@ a {
     }
 }
 
-/* Portfolio Section */
+/* Product Section */
 
-#portfolio {
+#product {
     text-align: center;
     padding-bottom: 5rem;
     .list-inline {
@@ -289,27 +289,27 @@ a {
     }
 }
 
-.portfolio {
+.product {
     // margin: 4rem 0;
     // position: relative;
 }
-.portfolio h1 {
+.product h1 {
     color: $primary;
     margin: 2rem;
 }
-.portfolio .card {
+.product .card {
     box-shadow: 0 0 20px #ccc;
     margin-top: 1.2rem;
 }
-.portfolio .card img {
-    width: 100%;
-    height: 14rem;
+.product .card img {
+    width: 40%;
+    height: auto;
 }
 
-.portfolio .card-title {
+.product .card-title {
     color: $primary;
 }
-.portfolio .card-body {
+.product .card-body {
     padding: 1rem;
 }
 
